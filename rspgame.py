@@ -14,4 +14,5 @@ def is_win(player, opponent):
     if (player == 'r' and opponent == 's') or (player == 'p' and opponent == 'r') or (player == 's' and opponent == 'p'):
         return true
 
+print("컴퓨터의 선택은 : ", computer)
 print(play())
